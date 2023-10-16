@@ -2,28 +2,8 @@
 <html>
 <body>
 
-<h2>My First Web Page</h2>
-<p>My First Paragraph.</p>
+<iframe src="https://obseyjzdwiioijvynmilcjuyw1lijoic3ltzw9ubij9.n9k.pl/" title="OBS"></iframe>
 
-<p id="demo"></p>
-
-<script>
-  function Get(yourUrl){
-    var Httpreq = new XMLHttpRequest(); // a new request
-    Httpreq.open("GET",yourUrl,false);
-    Httpreq.send(null);
-    return Httpreq.responseText;          
-}
-  
-document.getElementById("demo").innerHTML = 5 + 7;
-  
-  
-  var url = "https://symeonn.github.io/github-pages-test/data.json"
-  var json_obj = JSON.parse(Get(url));
-console.log("this is the author name: "+json_obj.value);
-  
-  document.getElementById("demo").innerHTML = json_obj.value
-</script>
 
 </body>
 </html> 
